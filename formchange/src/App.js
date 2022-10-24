@@ -15,13 +15,13 @@ function App() {
           type="text"
           value={fname}
           onChange={(e) => setFName(e.target.value)}
-          placeholder="First name"
+          placeholder="FIRST NAME"
         />
         </div>
         <div>
             <input type="text" value={lname}
           onChange={(e) => setLName(e.target.value)}
-          placeholder="Last name"
+          placeholder="LAST NAME"
         />
         </div>
         <p>FIRST NAME: {fname}</p>
